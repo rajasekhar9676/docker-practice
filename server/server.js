@@ -40,7 +40,7 @@ app.use('/api/reqi',require('./routes/RequirementRoutes'))
 
 
 app.get('/', (req, res) => {
-  res.send('Server is running!');
+  res.send('Server is running and work well!');
 });
 
 
